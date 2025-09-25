@@ -1,3 +1,3 @@
-print("Hello Világ!")
+import nyugta
 
-print("második sor az első commit után")
+nyugta.nyugta()
