@@ -1,3 +1,6 @@
-import nyugta
+#import nyugta
 
-nyugta.nyugta()
+import feladat
+
+#nyugta.nyugta()
+
