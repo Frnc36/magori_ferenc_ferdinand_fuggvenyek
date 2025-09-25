@@ -9,10 +9,10 @@ def nyugta():
     tetle_ar("körte", 234.2)
     er = osszeg(1234, 234, 234.2)
     disz_sor("=")
-    #disz_sor("@")
     tetle_ar("Összesen: ", er)
+    tetle_ar("Szervízdíj: ", er/10)
     disz_sor("=")
-    datum_nev("-")
+    tetle_ar("Fizentendő: ", er/10+er)
     disz_sor("*")
     szoveg_kozepre("CÉG")
     disz_sor("*")
@@ -37,7 +37,4 @@ def osszeg(ar1:float, ar2:float, ar3:float):
     eredmeny = ar1+ar2+ar3
     #függvény van visszatérési értéke
     return eredmeny
-
-def datum_nev(dat:str = "-"):
-    print()
 
